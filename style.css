@@ -141,6 +141,9 @@ footer {
     .contents h4{
         display: none
     }
-
+    .copy img {
+        background-color: transparent;
+        border-radius: 8px;
+    }
 
 }
