@@ -15,10 +15,14 @@ const resCodes = [
         imgSection.appendChild(container)
         let img = document.createElement("img")
         container.appendChild(img)
-        img.src = `${link}${resCodes[i]}.jpg`
+        let overllay = document.createElement("div")
+        img.appendChild(overllay)
+        overllay.className = "overl";
+        overllay.style.display = "block";
+        img.src = `${link}${resCodes[i]}.jpg`;
         img.className = "imgStyle";
         img.addEventListener("click", (e)=> {
-            window.open(`${link}/status/${resCodes[i]}jpg`,)
+            window.open(`https://http.cat/status/${resCodes[i]}`)
         })
     }
   }

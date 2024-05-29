@@ -20,8 +20,11 @@ header .left .img {
     margin-bottom: 20px;
 }
 .copy p {
-    font-size: 22px;
+    font-size: 18px;
 
+}
+.left .text {
+    margin-top: -30px;
 }
 .left .text span {
     font-size: 12px;
@@ -67,6 +70,16 @@ footer .text p{
     width: 300px;
     margin-right: 20px;
     margin-bottom: 20px;
+    z-index: -1;
+}
+/* .imgStyle img {
+} */
+ .overl {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    display: block;
+    
 }
 footer {
     margin-top: 20px;
@@ -77,6 +90,10 @@ footer {
 @media (max-width: 768px){
     header {
         display: block;
+    }
+    left {
+        border: 1px #eee solid;
+        padding: 5px;
     }
     .left .text {
         display: none;
@@ -108,7 +125,6 @@ footer {
        text-align: left;
     }
     .copy p {
-        width: 90%;
         font-size: 16px;
         padding: 0;
         margin-bottom: 0;
