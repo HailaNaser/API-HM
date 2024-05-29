@@ -8,6 +8,7 @@ body {
 .left {
     border: 1px #eee solid;
     padding: 20px;
+    position: relative;
 }
 header .left .img {
   margin-right: 20px;
@@ -30,8 +31,9 @@ header .left .img {
     font-size: 12px;
     background-color: #eee;
     padding: 5px;
-    margin-left: 55%;
-    margin-bottom: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .text  p {
     font-size: 12px;
