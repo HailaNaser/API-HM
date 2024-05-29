@@ -89,8 +89,8 @@ footer {
         text-align: center;
     }
     .contents h2{
-        /* width: 80%;
-        padding: 5px; */
+        margin-top: 20px;
+        margin-bottom: 0;
         text-align: left;
         font-size: 20px;
     }
@@ -98,9 +98,6 @@ footer {
         font-size: 8px;
         margin-bottom: 10px;
         line-height: 2;
-    }
-    header .left .img {
-        /* height: 20px */
     }
     .copy {
         width: 100%;
@@ -110,13 +107,19 @@ footer {
     .copy h4{
        text-align: left;
     }
-    
-    }
     .copy p {
         width: 90%;
-        font-size: 18px;
-        text-align: center;
+        font-size: 16px;
         padding: 0;
+        margin-bottom: 0;
+        color: gray;
+    }
+    .logo h1{
+        display: none;
+    }
+    .contents h4{
+        display: none
     }
 
-/* } */
+
+}
