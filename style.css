@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+.logo h1{
+    color: #d0383e;
+    font-weight: bold;
+}
+.left {
+    border: 1px #eee solid;
+    padding: 20px;
+}
+header .left .img {
+  margin-right: 20px;
+}
+.copy {
+    background-color: #eee;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.copy p {
+    font-size: 22px;
+
+}
+.left .text span {
+    font-size: 12px;
+    background-color: #eee;
+    padding: 5px;
+    margin-left: 55%;
+    margin-bottom: 50%;
+}
+.text  p {
+    font-size: 12px;
+    text-align: right;
+}
+.content {
+    text-align: content;
+
+}
+.contents h2{
+    text-align: left;
+    font-size: 18px;
+}
+.contents span {
+    font-weight: bold;
+
+}
+.copy img{
+    padding: 20px;
+
+}
+.icons img{
+    margin-right: 20px;
+}
+footer .text p{
+    text-align: center;
+    font-size: 15px;
+}
+.img-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imgStyle {
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+@media (max-width: 768px){
+    header {
+        display: block;
+    }
+    .left .text {
+        display: none;
+    }
+    .contents {
+        max-width: 95%;
+        padding: 5px;
+        margin: auto;
+        font-size: 13px;
+        text-align: center;
+    }
+    .contents h2{
+        /* width: 80%;
+        padding: 5px; */
+        text-align: left;
+        font-size: 20px;
+    }
+    footer p{
+        font-size: 8px;
+        margin-bottom: 10px;
+        line-height: 2;
+    }
+    header .left .img {
+        /* height: 20px */
+    }
+    .copy {
+        width: 100%;
+        background-color: transparent;
+        margin: 0;
+    }
+    .copy h4{
+       text-align: left;
+    }
+    
+    }
+    .copy p {
+        width: 90%;
+        font-size: 18px;
+        text-align: center;
+        padding: 0;
+    }
+
+/* } */
