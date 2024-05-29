@@ -22,7 +22,10 @@ header .left .img {
 }
 .copy p {
     font-size: 18px;
-
+}
+.copy img {
+    background-color: #d0383e;
+    border-radius: 8px;
 }
 .left .text {
     margin-top: -30px;
